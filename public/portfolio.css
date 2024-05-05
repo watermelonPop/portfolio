@@ -1,0 +1,482 @@
+.title{
+        font-family: "Tilt Neon", sans-serif;
+        font-size: 70px;
+        text-align: center;
+        color: var(--accent);
+        margin: 0px;
+}
+
+.portDiv{
+        background-color: var(--main);
+        width: 100%;
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+body{
+        margin: 0px;
+        padding: 0px;
+        height: 100vh;
+}
+
+main{
+        margin: 0px;
+        padding: 0px;
+}
+html{
+        margin: 0px;
+        padding: 0px;
+}
+
+.headerDiv {
+        height: 13%;
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Vertically center the content */
+        padding-top: 5%;
+        padding-right: 10%;
+    }
+
+.menuIcon {
+        fill: var(--accent);
+        width: 50%;
+        height: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        transition: transform 0.5s ease-in-out;
+        background-color: transparent;
+        padding: 0px;
+}
+
+.menuIcon:hover{
+        background-color: var(--supp1);
+}
+
+#menuNav{
+        display: none;
+}
+
+#menuNav{
+        display: none;
+        transition: all 35s ease-in-out;
+        width: 0px;
+}
+
+.menu {
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        width: 200px;
+        list-style-type: none;
+      }
+      
+      .menu > li > a {
+        background: transparent;
+        color: #fff;
+        display: block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+      }
+      
+      .menu ul {
+        background-color: transparent;
+        height: 0;
+        opacity: 0;
+        position: absolute;
+        transition: all .5s ease;
+        width: 84%;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 7%;
+      }
+      
+      .menu li:hover ul {
+        height: 200px;
+        opacity: 1;
+        transform: translateY(0);
+        z-index: 1;
+      }
+      
+      .menu ul a {
+        color: #000;
+        display: flex;
+        padding: 0px;
+        background-color: var(--supp1);
+        justify-content: center;
+        text-align: center;
+        width: 50%;
+        margin-left: 25%;
+        z-index: 1;
+        cursor: pointer;
+      }
+
+      .justText{
+        background-color: transparent;
+        width: fit-content;
+        text-align: center;
+        text-decoration: none;
+        font-family: "Tilt Neon", sans-serif;
+        font-size: 20px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        color: var(--accent);
+      }
+
+      a:link { 
+        text-decoration: none; 
+      } 
+      a:visited { 
+        text-decoration: none; 
+      } 
+      a:hover { 
+        text-decoration: none; 
+      } 
+      a:active { 
+        text-decoration: none; 
+      }
+
+      .outerPortSlideDiv{
+        background-color: var(--accent);
+        width: 80%;
+        height: 60%;
+        border-radius: 8px;
+        margin-top: 5%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+
+      .portSlideDiv{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 90%;
+      }
+
+      .txt{
+        font-family: "Tilt Neon", sans-serif;
+        font-size: 20px;
+        width: 90%;
+        line-height: 2;
+      }
+
+      .projectTitleDiv{
+        width: 100%;
+        height: 10%;
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .projectTitle{
+        font-family: "Tilt Neon", sans-serif;
+        font-size: 20px;
+        width: 94%;
+        height: 100%;
+        text-align: center;
+        background-color: var(--main);
+        border-radius: 8px;
+        cursor: pointer;
+        color: black;
+      }
+
+      .slideIcon{
+        font-size: 40px;
+      }
+
+      .projectImg{
+        width: 90%;
+        height: fit-content;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        max-height: 40vh;
+        display: flex;
+        border-radius: 8px;
+      }
+
+      .projectImgDiv{
+        width: 50%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+
+      .imgFrame{
+        background-color: var(--supp1);
+        justify-content: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        max-height: 100%;
+        border-radius: 8px;
+      }
+
+      .projectDisplayDiv{
+        display: flex;
+        height: 90%;
+      }
+
+      .projectDescDiv{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .projectDesc{
+        overflow-y: scroll;
+        width: 90%;
+        height: 90%;
+        font-family: "Tilt Neon", sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        color: black;
+      }
+
+      .descFrame{
+        background-color: var(--supp2);
+        height: 92%;
+        width: 90%;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .flip-card {
+        background-color: transparent;
+        perspective: 1000px;
+      }
+
+      .innerSlideDiv{
+        width: 85%;
+        height: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+    
+    .flip-card-inner.flipped {
+        transform: rotateY(180deg);
+    }
+      
+      .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+      }
+      
+      .flip-card-front {
+        width: 100%;
+        height: 100%;
+      }
+      
+      .flip-card-back {
+        color: white;
+        transform: rotateY(180deg);
+      }
+
+      .projectLinksDiv{
+        height: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .projectLinkDiv{
+        width: 50%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3%;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+
+      .projectLinkDiv:hover{
+        text-shadow: 1px 1px 2px var(--main), 0 0 1em var(--main), 0 0 0.2em var(--main);
+      }
+
+      .left{
+        background-color: var(--supp2);
+      }
+
+      .right{
+        background-color: var(--supp1);
+      }
+
+      .projectLink{
+        font-family: "Tilt Neon", sans-serif;
+        font-size: 20px;
+        color: black;
+      }
+
+      .indicatorsDiv i{
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+
+      .indicatorsDiv{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+
+      .fade-in-animation {
+        animation: fade-in 0.25s ease-out;
+      }
+
+      .fade-out-animation{
+        animation: fade-out 0.25s ease-in;
+      }
+    
+      @keyframes fade-out {
+        0% {
+          opacity: 1;
+       }
+       100% {
+          opacity: 0;
+       }
+      }
+
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+       }
+       100% {
+        opacity: 1;
+       }
+      }
+
+
+      .center {
+        display: flex;
+      }
+      
+      #transDiv {
+        position: absolute;
+        width: 100%;
+        height: 100%; 
+        top: 0;
+        left: 0;
+        opacity: 1;
+      }
+      
+      .back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: var(--accent);
+        animation: backdiv 2s ease infinite;
+      }
+      
+      .heart {
+        position: absolute;
+        top: 50%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%) rotate(-45deg);
+        background-color: var(--main);
+        height: 50px;
+        width: 50px;
+        animation: beat 2s ease infinite;
+      }
+      
+      .heart:after,
+      .heart:before {
+        background-color: var(--main);
+        content: "";
+        border-radius: 50%;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+      }
+      
+      .heart:after {
+        top: 0px;
+        left: 25px;
+      }
+      
+      .heart:before {
+        top: -25px;
+        left: 0px;
+      }
+      
+      @keyframes backdiv {
+        50% {
+          background: var(--supp1);
+        }
+      }
+      
+      @keyframes beat {
+        0% {
+          transform: translate(-50%, -50%) scale(1) rotate(-45deg);
+        }
+        50% {
+          transform: translate(-50%, -50%) scale(0.6) rotate(-45deg);
+        }
+      }
+
+      .btnDiv{
+        width: 90%;
+        height: 5%;
+        margin-top: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+
+      .dbBtn{
+        background-color: var(--main);
+        width: fit-content;
+        height: 100%;
+        border: 2px black solid;
+        border-radius: 8px;
+        font-family: "Tilt Neon", sans-serif;
+        font-size: 20px;
+        cursor: pointer;
+        color: black;
+        padding-top: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+      }
+
+      .dbBtn:hover{
+        background-color: var(--accent);
+      }

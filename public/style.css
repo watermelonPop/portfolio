@@ -1,0 +1,330 @@
+
+
+
+body{
+        margin: 0px;
+        padding: 0px;
+        height: 100vh;
+}
+main{
+        margin: 0px;
+        padding: 0px;
+}
+html{
+        margin: 0px;
+        padding: 0px;
+}
+.landingDiv{
+        background-color: var(--main);
+        width: 100%;
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+.cake__container {
+        position: relative;
+        width: 60%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+}
+      
+      .plate {
+        position: absolute;
+        margin: 4rem 0 0 0;
+        width: 25rem;
+        height: 10rem;
+        border-radius: 100%;
+        background: radial-gradient(#F7F7F7 40%, #d9d9d9 40%, #F7F7F7 43%, #e6e6e6);
+      }
+      
+      .cake {
+        position: relative;
+        margin: 0 auto;
+        width: 18rem;
+        height: 11rem;
+      }
+      
+      .cakefrosting__side {
+        position: absolute;
+        top: -3.45rem;
+        left: 0rem;
+        border-left: 13rem solid transparent;
+        border-right: 5rem solid transparent;
+        border-bottom: 4rem solid #fdfbf9;
+      }
+      
+      .cakefrosting__top {
+        position: relative;
+        background: #fdfbf9;
+        width: 100%;
+        height: 2rem;
+        border-radius: 15px 15px 0 0;
+        overflow: hidden;
+      }
+      
+      .cakefrosting__top::before {
+        content: '';
+        display: block;
+        position: absolute;
+        background: radial-gradient(closest-side, #fdfbf9, #fdfbf9 95%, transparent 95%);
+        background-position: 2.5rem;
+        background-size: 3rem 2rem;
+        background-repeat: repeat-x;
+        width: 100%;
+        height: 2rem;
+        left: 0;
+        bottom: -0.5rem;
+      }
+      
+      .cakefrosting__left {
+        position: absolute;
+        width: 5%;
+        height: 100%;
+        background: #fdfbf9;
+        top: 0;
+        right: 0;
+        border-radius: 0 15px 10px 0;
+      }
+      
+      .cakeinside {
+        display: flex;
+        align-items: center;
+        margin: 0 5% 0 5%;
+        width: 90%;
+        height: 9rem;
+        background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ecc767' fill-opacity='0.2' fill-rule='evenodd'/%3E%3C/svg%3E");
+        background-color: #f6e5b8;
+        box-shadow: inset -10px 10px 30px #c7b78f;
+        border-radius: 0 0 0 5px;
+      }
+      
+      .cakeinside__filling {
+        position: relative;
+        background: #fdfbf9;
+        width: 100%;
+        height: 28%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        overflow: hidden;
+      }
+      
+      .cakeinside__filling::before,
+      .cakeinside__filling::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 5px;
+        background: #fdfbf9;
+      }
+      
+      .cakeinside__filling::before {
+        bottom: 0;
+      }
+      
+      .cakeinside__filling::after {
+        top: 0;
+      }
+      
+      .cakeinside__filling .strawberry {
+        background: radial-gradient(transparent 5%, #f6514d 50%, #e13c39 80%);
+        width: 25%;
+        height: 150%;
+        margin: 5px 0 0 0;
+        border: 2px dashed #c83c38;
+        border-radius: 100%;
+      }
+      
+      .cakeinside__filling .strawberry:nth-of-type(2) {
+        margin: -25px 0;
+        transform: rotateZ(180deg);
+      }
+
+      .titleDiv{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: fit-content;
+        margin-top: 5%;
+        margin-bottom: 0px;
+      }
+
+      .title{
+        font-family: "Tilt Neon", sans-serif;
+        font-size: 70px;
+        text-align: center;
+        color: var(--accent);
+      }
+
+      .landingLinksDiv{
+        height: 20%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 10%;
+      }
+
+      .landingLink{
+        font-family: "Tilt Neon", sans-serif;
+        font-size: 50px;
+        color: var(--accent);
+        text-align: center;
+        cursor: pointer;
+        text-decoration: none;
+      }
+
+      .landingLink:hover{
+        color: black;
+      }
+
+      .hoverIcon{
+        width: 100%;
+        height: 100%;
+      }
+
+      #Icon-Set-Filled, .hoverIcon{
+        fill: black;
+      }
+
+      .hoverIconDiv{
+        width: fit-content;
+        height: 100%;
+        visibility: hidden;
+      }
+
+      .middleDiv{
+        display: flex;
+        margin-top: 0px;
+        margin-bottom: 5%;
+      }
+
+      .settingsOverdiv{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        position: absolute;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        top: 0;
+        left: 0;
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .settingsOver{
+        width: 10%;
+        height: 10%;
+      }
+
+      .fade-out {
+        animation: fadeOutAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+      }
+      
+      @keyframes fadeOutAnimation {
+        0% {
+          opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+      }
+      
+      .fade-in {
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+      }
+      
+      @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+      .center {
+        display: flex;
+      }
+      
+      #transDiv {
+        position: absolute;
+        width: 100%;
+        height: 100%; 
+        top: 0;
+        left: 0;
+        opacity: 1;
+      }
+      
+      .back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: var(--accent);
+        animation: backdiv 2s ease infinite;
+      }
+      
+      .heart {
+        position: absolute;
+        top: 50%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%) rotate(-45deg);
+        background-color: var(--main);
+        height: 50px;
+        width: 50px;
+        animation: beat 2s ease infinite;
+      }
+      
+      .heart:after,
+      .heart:before {
+        background-color: var(--main);
+        content: "";
+        border-radius: 50%;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+      }
+      
+      .heart:after {
+        top: 0px;
+        left: 25px;
+      }
+      
+      .heart:before {
+        top: -25px;
+        left: 0px;
+      }
+      
+      @keyframes backdiv {
+        50% {
+          background: var(--supp1);
+        }
+      }
+      
+      @keyframes beat {
+        0% {
+          transform: translate(-50%, -50%) scale(1) rotate(-45deg);
+        }
+        50% {
+          transform: translate(-50%, -50%) scale(0.6) rotate(-45deg);
+        }
+      }
