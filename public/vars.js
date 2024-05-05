@@ -11,6 +11,10 @@ if(localStorage.getItem('customTheme') == null){
         localStorage.setItem("customTheme", JSON.stringify(initialCustom));
 }
 
+if(localStorage.getItem('currentTheme') == null){
+        localStorage.setItem("currentTheme", "0");
+}
+
 changeTheme(parseInt(localStorage.getItem("currentTheme")));
 if(document.getElementById('themesDiv') != null){
         for(let i = 0; i < themes.length; i++){
